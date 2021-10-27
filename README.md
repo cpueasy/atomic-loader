@@ -41,5 +41,5 @@ Or craft your own shellcode, that should connect to a websocket server and execu
 
 ### Detections on virustotal?
 ![](detections.png)
-I'm proud to say this is surprisingly [100% FUD](https://www.virustotal.com/gui/file/4903e478fede3628566f20e2fb1caccbf22f88f9d02822748428d6ad23a88d64?nocache=1). Any application you compile with node pkg will stay zero, Hence you could utilize this as a "trojan dropper"
+I'm proud to say this is surprisingly [100% FUD](https://www.virustotal.com/gui/file/4903e478fede3628566f20e2fb1caccbf22f88f9d02822748428d6ad23a88d64?nocache=1). Any application you compile with [node pkg](https://medium.com/@cpu_easy/how-i-got-zero-detections-on-virus-total-900f182a0d7b) will stay zero, Hence you could utilize this as a "trojan dropper"
 Unless you want to code Mimikatz in nodejs ;)
