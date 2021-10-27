@@ -8,13 +8,13 @@ This is a proof of concept universal electron **FUD** application backdoor. I na
 
 ### How does it work
 Every single electron application uses a format called asar, you might have seen this:
-[https://github.com/electron/asar]()
+[https://github.com/electron/asar](https://github.com/electron/asar)
 
 - Unpacking asar files is simple and packing it back with malicious javascript added will force the code to load with the application and therefore backdooring it.
 - I can't say it "injects" but it's some form of persistance inside the application
 
 This loader was based on vxunderground's research paper: "Node modules infector" but not to be confused since it works completely different yet the idea is still the same.
-[https://github.com/vxunderground/VXUG-Papers/tree/main/Node%20Module%20Infector]()
+[https://github.com/vxunderground/VXUG-Papers/tree/main/Node%20Module%20Infector](https://github.com/vxunderground/VXUG-Papers/tree/main/Node%20Module%20Infector)
 
 
 ### Why does it not fully work?
@@ -30,7 +30,7 @@ const shellcode = "";
 
 Use something like this: 
 
-[https://github.com/vxunderground/VXUG-Papers/blob/main/Node%20Module%20Infector/Cross-platform%20demo/payloads/windows/discordReverseShell.js]()
+[https://github.com/vxunderground/VXUG-Papers/blob/main/Node%20Module%20Infector/Cross-platform%20demo/payloads/windows/discordReverseShell.js](https://github.com/vxunderground/VXUG-Papers/blob/main/Node%20Module%20Infector/Cross-platform%20demo/payloads/windows/discordReverseShell.js)
 
 Or craft your own shellcode, that should connect to a websocket server and execute commands from it. In this example we will be using [piesocket](https://www.piesocket.com/):
 
